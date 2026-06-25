@@ -1,0 +1,40 @@
+# IDE
+.idea/
+.vscode/
+
+# Виртуальное окружение
+venv/
+env/
+.venv/
+addfitghtodata.py
+bot.log
+bot_database.db
+bot_activity.log
+cleandb.py
+create_battle_history_table.sql
+create_bonus_table.py
+create_payments.py
+support_activity.log
+
+
+
+
+# Кеш Python
+__pycache__/
+*.pyc
+
+# Логи и базы данных
+*.log
+*.db
+*.sqlite3
+
+# Бэкапы (если это папка с архивами)
+backups/
+
+# Секреты
+.env
+
+# Файлы, создаваемые при запуске
+bot.log
+bot_activity.log
+support_activity.log
